@@ -1,0 +1,259 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    background-image: url(./1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}   
+
+.navbar{
+    width: 1200px ;
+    height: 75px;
+    margin: auto;
+}
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+.logo{
+    color: #bb2f46;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left:1px;
+    float: left;
+    padding-top: 10px;
+}
+.logo:hover{
+    color: #fff;
+}
+.menu{
+    width: 300px;
+    float: left;
+    height: 70px; 
+}
+ul{
+    list-style: none;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+ul li{
+    background-color: #c9baad;
+    border: none;
+    width: 135px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    list-style:none ;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 16px;
+    position: relative;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+ul li:hover{
+    background-color: #bb2f46;
+}
+ul li a{
+    text-decoration: none;
+    color: #000;
+    display: block;
+    font-family: Arial;
+    font-weight:bold;
+    
+}
+ul li a:hover{
+   color: white; 
+}
+ ul ul{
+    position: absolute;
+    display: none;
+
+}
+ul li:hover>ul{
+    display: block;
+}
+    
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: #fff;
+    position: relative;
+}
+.content.par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+    text-align: center;
+}
+.content h1{
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    padding: 20px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+}
+
+.content .cn{
+   width: 160px;
+   height: 40px;
+   background: #c9baad;
+   border: none; 
+   margin-bottom: 10px;
+   margin-left: 20px; 
+   font-size: 18px;
+   border-radius: 10px;
+   cursor: pointer;
+}
+
+.content .cn a{
+    text-decoration:none ;
+    color: #000;
+    
+}
+
+.cn:hover{
+    background-color: rgb(232, 49, 49);
+}
+.form{
+    width: 250px;
+    height: 380px;
+    background: linear-gradient( to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+    position: absolute;
+    top: -20px;
+    left: 870px;
+    border-radius: 10px;
+    padding: 25px;
+}
+.form h2{
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: #ff7200;
+    font-size: 22px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+}
+.form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom:1px solid #ff7200 ;
+    border-top: none;
+    border-left: none;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+.form input:{
+    outline: none;
+}
+:: :placeholder {
+    color: #fff;
+    font-family: Arial;
+}
+.btnn{
+    width: 240px;
+    height: 40px;
+    background: none;
+    margin-top:30px ;
+    font-size: 18px;
+    border-radius:10px ;
+    cursor: pointer;
+    color: #fff;
+}
+ .btnn:hover{
+    background: #fff;
+    color:#ff7200;
+ }
+
+ .btnn a{
+    text-decoration: none;
+    color: rgb(109, 91, 202);
+    font-weight: bold;
+ }
+
+ .form .link{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+
+ }
+
+ .form .link a{
+    text-decoration: none;
+    color: #ff7200;
+ }
+ .liw{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+ }
+
+ .icon img{
+    margin-left: 9px;
+    margin-right: 8px;
+    
+ }
+ .icon img a:hover{
+    color:#f67f08;
+    text-decoration: none;
+
+ }
+ .top_cat
+{
+    border: 0px solid black;
+    display: flex;
+    justify-content: space-around ;
+    align-items: center;
+
+    
+}
+.top_cat_pro
+{
+    border: 0px solid red;
+    width: 360px;
+    height: 250px;
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: 5px 5px 5px 5px black;
+    
+
+}
+.top_cat_pro:hover
+{
+   transform: scale(1.05) ;
+}
+.top_cat_pro img
+{
+    width: 100%;
+}
+.contect{
+    width: 100%;
+    height: 430px;
+    border: 2px solid blue;
+}
+.contect_content{
+    width: 45%;
+    height: 400px;
+    border: 2px solid green;
+}
